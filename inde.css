@@ -1,0 +1,32 @@
+ body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* căn giữa theo chiều dọc */
+      align-items: center;     /* căn giữa theo chiều ngang */
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    .contanier {
+        
+      display: flex;
+      flex-direction: column;  /* xếp các nút theo chiều dọc */
+      align-items: center;
+      width: 140%;
+      max-width: 400px; /* không quá to trên màn hình rộng */
+   
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
